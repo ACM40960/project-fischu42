@@ -4,7 +4,7 @@
 # README
 
 - [Structure of the repository](#heading)
-- [Main goal of the project](##Main%goal%of%the%project)
+- [Main goal of the project](##Main-goal-of-the-project)
 
 ## Structure of the repository
 
