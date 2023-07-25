@@ -5,7 +5,13 @@
 
 ### Structure of the repository
 
-In this project I wanted to solve the Travelling Salesperson Problem. A brief introduction for the theoretical background can be found in the TSP_review.pdf file. The code is uploaded in pdf format (TSP.pdf) and as a jupyter notebook (TSP.ipynb) which users can download and run. Since I don't use any special modules, and the code is generating the data, users do not need to perform any special tasks before running the code
+In this project I wanted to solve the Travelling Salesperson Problem using Python. A brief introduction for the theoretical background can be found in the TSP_review.pdf file. The code is uploaded in pdf format (TSP.pdf) and as a jupyter notebook (TSP.ipynb) which users can download and run.
+
+Before running the code make sure that all the important modules are installed on your device.
+- asd
+- asd
+
+Since I don't use any special modules, and the code is generating the data, users do not need to perform any special tasks before running the code
 
 ### Main goal of the project
 
