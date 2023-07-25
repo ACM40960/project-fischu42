@@ -3,8 +3,8 @@
 
 # README
 
-- [Heading](#heading)
-- [Heading](#heading-1)
+- [Structure of the repository](#heading)
+- [Main goal of the project](#heading-1)
 
 
 ## Heading
