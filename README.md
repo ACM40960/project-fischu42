@@ -5,7 +5,7 @@
 
 - [Structure of the repository](#heading)
 - [Main goal of the project](##Main-goal-of-the-project)
-- [ASD](#asd)
+- [ASD](#ASD)
 
 ## Structure of the repository
 
@@ -28,6 +28,6 @@ During the implementation of the project, the main focus was on Simulated Anneal
 
 As a final result I found that both methods are appropriate for this problem, the Simulated Anneling might be a bit more robust to different choice of hyperparameters.
 
-## asd
+## ASD
 
 
