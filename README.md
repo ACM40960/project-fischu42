@@ -3,9 +3,14 @@
 
 # README
 
-Table of Contents  
-[Headers](#headers)  
-[Main goal of the project](#Main goal of the project)
+- [Heading](#heading)
+- [Heading](#heading-1)
+
+
+## Heading
+
+
+## Heading
 
 ### Structure of the repository
 
