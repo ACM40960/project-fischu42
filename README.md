@@ -3,10 +3,14 @@
 
 # README
 
-In this project I wanted to solve the Travelling Salesperson Problem. A brief introduction for the theoretical background can be found in the TSP_review.pdf file, the code is uploaded in pdf format (TSP.pdf) and as a jupyter notebook (TSP.ipynb).
+### Structure of the repository
 
-During the implementation of the project, the main focus was on Simulated Annealing, but I also implemented an Ant Colony Optimization method and compared their performances. I created supplementary diagrams for both models for a deeper understanding of the problem. Since the hyperparameter tuning can take a lot of time I decided I will create interactive plots such that the users can play with the them. This way the users can get an impression how the hyperparameters are influanceing the models. 
+In this project I wanted to solve the Travelling Salesperson Problem. A brief introduction for the theoretical background can be found in the TSP_review.pdf file. The code is uploaded in pdf format (TSP.pdf) and as a jupyter notebook (TSP.ipynb) which users can download and run. Since I don't use any special modules, and the code is generating the data, users do not need to perform any special tasks before running the code
 
-As a final result I found that both methods are appropriate for this problem, the Simulated Anneling might be a bit more robust.
+### Main goal of the project
+
+During the implementation of the project, the main focus was on Simulated Annealing, but I also implemented an Ant Colony Optimization method and compared their performances. I created supplementary diagrams for both models for a deeper understanding of the problem. Since the hyperparameter tuning can take a lot of time I decided to create interactive plots such that the users can play with the them. This way the users can get an impression how the hyperparameters are influanceing the models. 
+
+As a final result I found that both methods are appropriate for this problem, the Simulated Anneling might be a bit more robust to different choice of hyperparameters.
 
 
