@@ -3,7 +3,7 @@
 
 # README
 
-- [Structure of the repository](#heading)
+- [Structure of the repository](#Structure-of-the-repository)
 - [Main goal of the project](#Main-goal-of-the-project)
 - [ASD](#ASD)
 
