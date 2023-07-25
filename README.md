@@ -5,7 +5,7 @@
 
 Table of Contents  
 [Headers](#headers)  
-[Emphasis](#emphasis)
+[Main goal of the project](#goal)
 
 ### Structure of the repository
 
