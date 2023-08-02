@@ -6,6 +6,8 @@
 - [Structure of the repository](#Structure-of-the-repository)
 - [Main goal of the project](#Main-goal-of-the-project)
 
+## install/environment/python
+
 ## Structure of the repository
 
 In this project I wanted to solve the Travelling Salesperson Problem using Python. A brief literary review/introduction for the theoretical background can be found in the [TSP_review.pdf](TSP_review.pdf) file. The code is uploaded in pdf format [TSP.pdf](TSP.pdf) and as a jupyter notebook [TSP.ipynb](TSP.ipynb) which users can download and run.
