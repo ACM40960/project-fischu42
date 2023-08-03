@@ -56,7 +56,7 @@ The function has the following outputs:
 - `ps`: it stores the acceptance probabilites
 - `total_dist`: it stores the total distance travelled at a ceratin route
 
-For example running the following code will produce the following plot:
+For example running the following code will produce the following plots:
 
 `initial_r, best_r, Ts, ps, total_dist = SA(seed=42)`
 
@@ -72,7 +72,22 @@ For example running the following code will produce the following plot:
 
 ### Ant Colony Optimization
 
+In this part of the project I created a class called `ant_route`. If you want to do the optimization first you will have to create an instance. For this you will need to consider the following inputs:
+
+- `points`: this is NOT an optional argument, it has no default value, you have to give it. It's an array with shape of (N, 2) where N is the number of cities and 2 is referring to the x and y coordinates.
+- `n_ants`: integer (default is 30). It controls the number of ants placed on the graph.
+- `n_iterations` integer (default is 200). It controls the number iterations in the optimization.
+- `alpha`: float (deafault is 1.5). It's a model hyperparameter of the optimization.
+- `beta`: float (default is 1.0). It's a model hyperparameter of the optimization.
+- `evaporation_rate`: float (default is 0.8). It's a model hyperparameter of the optimization, controls the evaporation rate.
+- `Q`: float (default is 1.0). It's a model hyperparameter of the optimization.
+
+Once you declared an instance with `intial_path = ant_route(city_pos)` you can call a class method to do the optimization as following: 
+`best_path, pheromone = intial_path.AntColonyOpt()`. This will return the best route found on the configuration and the pheromone distribution.
+
 ### Hyperparameter Tuning
+
+Both models contain lots of hyperparameters. I've decided to create interactive plots, where users can play around with these parameters and can get an impression for themselves how they are influencing the models.
 
 
 
