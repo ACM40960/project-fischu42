@@ -24,7 +24,7 @@ Before running the code make sure that all the important modules are installed o
 - matplotlib
 - ipywidgets
 
-If you are using anaconda all the modules I used in the project are installed as default during the anaconda installation.
+If you are using Anaconda, all the modules I've used in the project are installed as default during the anaconda installation, so you won't have any further things to do.
 
 
 ## Main goal of the project and relevance
@@ -36,6 +36,36 @@ I used simulated data for this project, and I tried to create supplementary diag
 ## How to run the code
 
 ### Simulated Annealing
+
+After running the code, users only need to call the function `SA()` to do Simulated Annealing. It will generate a (pseudo) random configartion of cities and will find a (sub) optimal route on the configuration. 
+
+The function has the following inputs:
+
+- `N`: integer (default is 20). It controls the number of cities to visit. 
+- `T_0`: integer (default is 1000). It controls the initial temperature of the simulated annealing
+- `alpha`: float (default is 0.99). It's the cooling hyperparameter.
+- `width`: integer (default is 10). It controls the width of the map.
+- `height`: integer (default is 10). It controls the height of the map.
+- `seed`: integer (default is None). You can set a seed and generate the same configuration of cities.
+
+The function has the following outputs:
+
+- `initial_r`: it stores an intial guess for the route
+- `best_r`: it stores the current best route
+- `Ts`: it stores the temperatures during the cooling process
+- `ps`: it stores the acceptance probabilites
+- `total_dist`: it stores the total distance travelled at a ceratin route
+
+For example running the following code will produce the following plot:
+
+`initial_r, best_r, Ts, ps, total_dist = SA(seed=42)`
+`initial_r.plot_route()`
+![SA_init](https://github.com/ACM40960/project-fischu42/assets/115270211/c193ed87-d7f8-4b8f-8400-476ecf53bf05)
+`best_r.plot_route()`
+![SA_sol](https://github.com/ACM40960/project-fischu42/assets/115270211/16e85d6c-65db-4047-9a46-da6d746fe2c3)
+
+
+
 
 ### Ant Colony Optimization
 
