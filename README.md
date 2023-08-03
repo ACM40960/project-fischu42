@@ -59,9 +59,12 @@ The function has the following outputs:
 For example running the following code will produce the following plot:
 
 `initial_r, best_r, Ts, ps, total_dist = SA(seed=42)`
+
 `initial_r.plot_route()`
-![SA_init](https://github.com/ACM40960/project-fischu42/assets/115270211/c193ed87-d7f8-4b8f-8400-476ecf53bf05)
+
 `best_r.plot_route()`
+
+![SA_init](https://github.com/ACM40960/project-fischu42/assets/115270211/c193ed87-d7f8-4b8f-8400-476ecf53bf05)
 ![SA_sol](https://github.com/ACM40960/project-fischu42/assets/115270211/16e85d6c-65db-4047-9a46-da6d746fe2c3)
 
 
