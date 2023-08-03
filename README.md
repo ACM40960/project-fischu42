@@ -3,16 +3,19 @@
 
 # README
 
-- [Structure of the repository](#Structure-of-the-repository)
-- [Main goal of the project](#Main-goal-of-the-project)
-
-## install/environment/python
 
 ## Structure of the repository
 
-In this project I wanted to solve the Travelling Salesperson Problem using Python. A brief literary review/introduction for the theoretical background can be found in the [TSP_review.pdf](TSP_review.pdf) file. The code is uploaded in pdf format [TSP.pdf](TSP.pdf) and as a jupyter notebook [TSP.ipynb](TSP.ipynb) which users can download and run.
+In this project I wanted to solve the Travelling Salesperson Problem. A brief literary review/introduction for the theoretical background can be found in the [TSP_review.pdf](TSP_review.pdf) file. The code is uploaded in pdf format [TSP.pdf](TSP.pdf) and as a jupyter notebook [TSP.ipynb](TSP.ipynb) which users can download and run. The presentation is available under the file [TSP_presentation.pdf](TSP_presentation.pdf).
 
-Before running the code make sure that all the important modules are installed on your device.
+## Before you start
+
+In this project I used Python, so if you want to run the code it's necessary to download it. I recommend to download Python with Anaconda, a detailed guide for this is available [here](https://docs.anaconda.com/free/anaconda/install/).
+
+All the modules I useD in the project are automatically installed during the anaconda installation, so
+
+
+Before running the code make sure that all the important modules are installed on your device:
 - numpy
 - random
 - math
@@ -21,13 +24,27 @@ Before running the code make sure that all the important modules are installed o
 - matplotlib
 - ipywidgets
 
-Usually when you download python these packages are downloaded as default, so probably you wont't need to perform any special tasks before running the code. The data is generated, all workings are available in the notebook [TSP.ipynb](TSP.ipynb).
+If you are using anaconda all the modules I used in the project are installed as default during the anaconda installation.
 
-## Main goal of the project
 
-During the implementation of the project, the main focus was on Simulated Annealing, but I also implemented the Ant Colony Optimization method (based on different sources as referenced in the notebook) and compared their performances. I created supplementary diagrams for both models for a deeper understanding of the problem. The analysis of the results will be available during the presentation at the end of the year. Since the hyperparameter tuning can take a lot of time I decided to create interactive plots such that the users can play with the them. This way the users can get an impression how the hyperparameters are influanceing the results.
+## Main goal of the project and relevance
 
-As a final result I found that both methods are appropriate for this problem, the Simulated Anneling might be a bit more robust to different choice of hyperparameters.
+The Travelling Salesperson problem is a well known problem in computational science, it has many applications in logistics, but it also appeares in seemingly remote areas such as DNA folding. The main goal of the project was solving the Travellig Salesperson problem with Simulated Annealing but I also implemented the Ant Colony Optimization method (based on different sources as referenced in the jupiter notebook). At the end of the project I also compared their performances.
+
+I used simulated data for this project, and I tried to create supplementary diagrams for both models for a profound understanding of the problem. A deeper analysis of the results will be presented at the end of the year.
+
+## How to run the code
+
+### Simulated Annealing
+
+### Ant Colony Optimization
+
+### Hyperparameter Tuning
+
+
+
+
+
 
 
 
