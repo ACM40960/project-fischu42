@@ -12,17 +12,14 @@ In this project I wanted to solve the Travelling Salesperson Problem. A brief li
 
 In this project I used Python, so if you want to run the code it's necessary to download it. I recommend to download Python with Anaconda, a detailed guide for this is available [here](https://docs.anaconda.com/free/anaconda/install/).
 
-All the modules I useD in the project are automatically installed during the anaconda installation, so
-
-
 Before running the code make sure that all the important modules are installed on your device:
-- numpy
-- random
-- math
-- pandas
-- copy
-- matplotlib
-- ipywidgets
+- `numpy`
+- `random`
+- `math`
+- `pandas`
+- `copy`
+- `matplotlib`
+- `ipywidgets`
 
 If you are using Anaconda, all the modules I've used in the project are installed as default during the anaconda installation, so you won't have any further things to do.
 
