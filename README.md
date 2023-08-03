@@ -79,7 +79,7 @@ In this part of the project I created a class called `ant_route`. If you want to
 - `evaporation_rate`: float (default is 0.8). It's a model hyperparameter of the optimization, controls the evaporation rate.
 - `Q`: float (default is 1.0). It's a model hyperparameter of the optimization.
 
-Once you have declared an instance, for example with `intial_path = ant_route(city_pos)` (where `city_pos` is an array) you can call a class method to do the optimization as following: `best_path, pheromone = intial_path.AntColonyOpt()`. This will return the best route found on the configuration and the pheromone distribution.
+Once you have declared an instance, for example with `intial_path = ant_route(points)` (where `points` is an array) you can call a class method to do the optimization as following: `best_path, pheromone = intial_path.AntColonyOpt()`. This will return the best route found on the configuration and the pheromone distribution.
 
 ### Hyperparameter Tuning
 
